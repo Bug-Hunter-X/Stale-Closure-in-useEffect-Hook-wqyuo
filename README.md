@@ -1,0 +1,2 @@
+# Stale Closure in React's useEffect Hook
+This repository demonstrates a common error in React applications involving the `useEffect` hook and stale closures.  The counter component doesn't update correctly because the `count` variable inside the `setInterval` callback is not updated from the state.
